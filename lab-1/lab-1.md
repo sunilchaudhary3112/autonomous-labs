@@ -25,12 +25,12 @@ title: Lab 1 Oracle Autonomous Cloud Services Labs
 5. [Autonomous Transaction Processing](#autonomous-transaction-processing)
    1. [Provisioning an ATP service](#provisioning-an-atp-service)
    2. [Connecting to ATP](#connecting-to-atp)
-   3. [Creating a new ADB user](#creating-a-new-adb-user)
-   4. [Generating a Swift Password for Object Storage](#generating-a-swift-password-for-object-storage)
-   5. [Data Loading into Cloud Object Storage](#data-loading-into-cloud-object-storage)
+   3. [Creating new ADB user](#creating-new-adb-user)
+   4. [Generating Swift Password for Object Storage](#generating-swift-password-for-object-storage)
+   5. [Data Loading to Cloud Object Storage](#data-loading-to-cloud-object-storage)
    6. [Data Loading from Cloud Object Storage to ATP using the SQL Developer Import Wizard](#data-loading-from-cloud-object-storage-to-atp-using-the-sql-developer-import-wizard)
-   7. [Connecting to Swingbench](#connecting-to-swingbench)
-   8. [Comparing the consumer groups](#comparing-the-consumer-groups)
+   7. [Connecting to Swing bench](#connecting-to-swing-bench)
+   8. [Comparing the consumer group](#comparing-the-consumer-group)
    9. [Monitoring your ATP instance](#monitoring-your-atp-instance)
 
 # Oracle Autonomous Cloud Services Labs
@@ -757,14 +757,14 @@ Click Test to check the connection.
 
 ![I85](images/i85.png)  
 
-## Creating a new ADB user 
+## Creating new ADB user 
 
 In case you have already created the ADB user in the ADW section, please skip this. Else refer here to create a new ADB user.
 
 ## Generating a Swift Password for Object Storage
 In case you have already generated the swift password for the ADB user in the ADW section, please skip this. Else refer here to generate a swift password.
 
-## Data Loading into Cloud Object Storage
+## Data Loading to Cloud Object Storage
 In case you have already created a bucket in the ADW section, please skip this. Else refer here to create a new bucket and upload the files onto it.
 
 ## Data Loading from Cloud Object Storage to ATP using the SQL Developer Import Wizard
@@ -895,7 +895,7 @@ select count(*) from orders;
 
 ![I101](images/i101.png)
 
-## Connecting to Swingbench
+## Connecting to Swing bench
 
 Swingbench is a free load generator (and benchmarks) designed to stress test an Oracle database.
 
@@ -979,7 +979,7 @@ We could see that the response time have also come down drastically. The number 
 
 Note: Please scale down the CPU to 1 again to save resources.
 
-## Comparing the consumer groups 
+## Comparing the consumer group
 
 High, Medium and Low are the three different consumer groups associated with an Autonomous Database instance.
 
